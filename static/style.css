@@ -1,0 +1,14 @@
+body { font-family: Arial, sans-serif; margin:0; background:#f6f7fb; color:#222; }
+.container { width:95%; max-width:1000px; margin:20px auto; }
+header { background:#1f2937; color:white; padding:10px 0; }
+header .container { display:flex; align-items:center; justify-content:space-between; }
+header h1 a { color:white; text-decoration:none; }
+nav a { color:#d1d5db; margin-left:12px; text-decoration:none; }
+.cards { display:flex; gap:12px; margin:10px 0 20px 0; }
+.card { background:white; padding:12px; border-radius:8px; flex:1; box-shadow: 0 2px 6px rgba(0,0,0,0.06); }
+table.transactions { width:100%; border-collapse:collapse; background:white; box-shadow:0 2px 6px rgba(0,0,0,0.04); }
+table.transactions th, table.transactions td { padding:8px 10px; border-bottom:1px solid #eee; }
+form input, form select { display:block; width:100%; padding:8px; margin:6px 0 12px 0; }
+button { padding:8px 12px; background:#1f6feb; color:white; border:none; border-radius:6px; cursor:pointer; }
+button:hover { opacity:0.95; }
+footer { color:#6b7280; font-size:14px; padding:18px 0; text-align:center; }

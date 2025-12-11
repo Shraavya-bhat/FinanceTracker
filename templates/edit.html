@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Edit Transaction</h2>
+<form method="post">
+  <label>Type</label>
+  <select name="type" required>
+    <option value="income" {% if tx.type=='income' %}selected{% endif %}>Income</option>
+    <option value="expense" {% if tx.type=='expense' %}selected{% endif %}>Expense</option>
+  </select>
+
+  <label>Amount</label>
+  <input name="amount" type="number" step="0.01" value="{{ tx.amount }}" required />
+
+  <label>Category</label>
+  <input name="category" value="{{ tx.category }}" required />
+
+  <label>Date</label>
+  <input name="date" type="text" value="{{ tx.date }}" />
+
+  <label>Note</label>
+  <input name="note" value="{{ tx.note }}" />
+
+  <button type="submit">Save</button>
+</form>
+{% endblock %}
