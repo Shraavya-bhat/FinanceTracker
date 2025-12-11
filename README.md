@@ -109,10 +109,12 @@ http://127.0.0.1:5000
 
 
 🤝 Contributing
+
 Pull requests are welcome!
 
 
 ⭐ Support
+
 Please ⭐ the repository if you like this project!
 
 
